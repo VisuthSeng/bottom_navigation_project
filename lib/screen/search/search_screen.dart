@@ -15,9 +15,9 @@ class SearchScreen extends StatelessWidget {
             height: 50,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(8), color: Colors.white),
-            child: Row(
+            child: const Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
+              children: [
                 Text(
                   'SELECT YOUR CAR',
                   style: TextStyle(
@@ -37,27 +37,22 @@ class SearchScreen extends StatelessWidget {
           ),
         ),
         Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            Padding(
-              padding: const EdgeInsets.only(left: 10, right: 5),
-              child: Container(
-                width: 200,
-                height: 80,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
-                  color: Colors.blueAccent,
-                ),
+            Container(
+              width: 180,
+              height: 80,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10),
+                color: Colors.blueAccent,
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(left: 5, right: 5),
-              child: Container(
-                width: 200,
-                height: 80,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
-                  color: Colors.blueAccent,
-                ),
+            Container(
+              width: 180,
+              height: 80,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10),
+                color: Colors.blueAccent,
               ),
             ),
           ],
