@@ -18,16 +18,8 @@ class SearchScreen extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: const [
-                Icon(
-                  Icons.search,
-                  size: 20,
-                  color: Colors.black,
-                ),
-                SizedBox(
-                  width: 15,
-                ),
                 Text(
-                  'Start Search',
+                  'SELECT YOUR CAR',
                   style: TextStyle(
                       fontSize: 16,
                       color: Colors.black,

@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Auto Scout24'),
+        title: const Text('DESTINY AUTO'),
       ),
       body: PageView(
         physics: const NeverScrollableScrollPhysics(),
