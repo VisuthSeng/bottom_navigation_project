@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sale_car_project/screen/search/search_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -34,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
         physics: const NeverScrollableScrollPhysics(),
         controller: pageController,
         children: const [
-          Text('Search'),
+          SearchScreen(),
           Text('Favoritie'),
           Text('Save Search'),
           Text('Selling'),
