@@ -34,12 +34,12 @@ class _HomeScreenState extends State<HomeScreen> {
       body: PageView(
         physics: const NeverScrollableScrollPhysics(),
         controller: pageController,
-        children: const [
+        children: [
           SearchScreen(),
-          Text('Favoritie'),
-          Text('Save Search'),
-          Text('Selling'),
-          Text('Profile'),
+          const Text('Favoritie'),
+          const Text('Save Search'),
+          const Text('Selling'),
+          const Text('Profile'),
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
